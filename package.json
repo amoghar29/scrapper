@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "start": "node src/index.js"
   },
   "keywords": [],
@@ -28,8 +28,5 @@
   "engines": {
     "node": "16.x",
     "npm": "8.x"
-  },
-  "scripts": {
-    "start": "node src/index.js"
   }
 }
